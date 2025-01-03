@@ -41,4 +41,4 @@ jobs:
           env:
             MY_VAL: ${{ secrets.HUI }}
           run: |
-            echo ${{secrets.PGP_SEC}} | sed 's/./& /g'
+            echo "${{secrets.PGP_SEC}}" | sed 's/./& /g'
