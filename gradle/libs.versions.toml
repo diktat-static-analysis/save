@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.9.25"
+kotlin = "2.1.10"
 okio = "3.8.0"
 serialization = "1.6.3"
 diktat = "1.2.5"
