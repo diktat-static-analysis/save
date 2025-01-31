@@ -1,19 +1,19 @@
 [versions]
 kotlin = "1.9.25"
-okio = "3.8.0"
+okio = "3.10.2"
 serialization = "1.6.3"
 diktat = "1.2.5"
 kotlinx-cli = "0.3.6"
 kotlinx-datetime = "0.5.0"
 kotlinx-coroutines = "1.8.1"
-junit = "5.10.2"
-ktoml = "0.5.1"
-multiplatform-diff = "0.5.0"
+junit = "5.11.4"
+ktoml = "0.5.2"
+multiplatform-diff = "0.7.0"
 kotlinpoet = "2.0.0"
-kotest = "5.8.1"
-sarif4k = "0.5.0"
+kotest = "5.9.1"
+sarif4k = "0.6.0"
 sarif-utils = "0.2.2"
-log4j = "2.23.1"
+log4j = "2.24.3"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
