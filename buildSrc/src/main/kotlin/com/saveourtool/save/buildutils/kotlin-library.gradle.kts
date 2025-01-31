@@ -51,7 +51,7 @@ kotlin {
     sourceSets {
         val commonTest by getting {
             dependencies {
-                implementation("io.kotest:kotest-assertions-core:5.8.1")
+                implementation("io.kotest:kotest-assertions-core:5.9.1")
                 implementation(kotlin("test-common"))
                 implementation(kotlin("test-annotations-common"))
             }
@@ -59,7 +59,7 @@ kotlin {
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit5"))
-                implementation("org.junit.jupiter:junit-jupiter-engine:5.10.2")
+                implementation("org.junit.jupiter:junit-jupiter-engine:5.11.4")
             }
         }
     }
